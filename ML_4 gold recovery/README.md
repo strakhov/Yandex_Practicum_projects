@@ -18,39 +18,43 @@ The rough concentrate undergoes two purifications. At the output, the final conc
 *Data description*
 
 Technological process
-Rougher feed — raw materials
-Rougher additives (or reagent additives) — flotation reagents: Xanthate, Sulfate, Depressant
-Xanthate — xanthogenate (promoter, or flotation activator);
-Sulfate — sulfate (in this production sodium sulfide);
-Depressant — depressant (sodium silicate).
-Rougher process (English "rough process") — flotation
-Rougher tails — dump tails
-Float banks — flotation plant
-Cleaner process — cleaning
-Rougher Au — rough gold concentrate
+
+Rougher feed — raw materials\
+Rougher additives (or reagent additives) — flotation reagents: Xanthate, Sulfate, Depressant\
+Xanthate — xanthogenate (promoter, or flotation activator)\
+Sulfate — sulfate (in this production sodium sulfide)\
+Depressant — depressant (sodium silicate).\
+Rougher process (English "rough process") — flotation\
+Rougher tails — dump tails\
+Float banks — flotation plant\
+Cleaner process — cleaning\
+Rougher Au — rough gold concentrate\
 Final Au — final gold concentrate
 
 Parameters
-of the air amount stages — air volume
-fluid levels — liquid level
-feed size — the size of the raw material granules
+
+of the air amount stages — air volume\
+fluid levels — liquid level\
+feed size — the size of the raw material granules\
 feed rate — feed rate
 
 Name of signs
-Template for naming features: [stage].[parameter type].[parameter name]
+
+Template for naming features: [stage].[parameter type].[parameter name]\
 Example: rougher.input.feed_ag
 
-Possible values for the [stage] block:
-rougher — flotation
-primary_cleaner — primary cleaning
-secondary_cleaner — secondary cleaning
+Possible values for the [stage] block:\
+rougher — flotation\
+primary_cleaner — primary cleaning\
+secondary_cleaner — secondary cleaning\
 final — final characteristics
 
-Possible values for the [parameter type] block:
-input — raw material parameters
-output — product parameters
-state — parameters characterizing the current state
+Possible values for the [parameter type] block:\
+input — raw material parameters\
+output — product parameters\
+state — parameters characterizing the current state\
 of the calculation stage — design characteristics
+___
 
 **Восстановление золота из руды**
 
@@ -72,36 +76,39 @@ of the calculation stage — design characteristics
 *Описание данных*
 
 Технологический процесс
-Rougher feed — исходное сырье
-Rougher additions (или reagent additions) — флотационные реагенты: Xanthate, Sulphate, Depressant  
-Xanthate — ксантогенат (промотер, или активатор флотации);
-Sulphate — сульфат (на данном производстве сульфид натрия);
-Depressant — депрессант (силикат натрия).
-Rougher process (англ. «грубый процесс») — флотация
-Rougher tails — отвальные хвосты
-Float banks — флотационная установка
-Cleaner process — очистка
-Rougher Au — черновой концентрат золота
+
+Rougher feed — исходное сырье\
+Rougher additions (или reagent additions) — флотационные реагенты: Xanthate, Sulphate, Depressant\
+Xanthate — ксантогенат (промотер, или активатор флотации);\
+Sulphate — сульфат (на данном производстве сульфид натрия);\
+Depressant — депрессант (силикат натрия).\
+Rougher process (англ. «грубый процесс») — флотация\
+Rougher tails — отвальные хвосты\
+Float banks — флотационная установка\
+Cleaner process — очистка\
+Rougher Au — черновой концентрат золота\
 Final Au — финальный концентрат золота
 
 Параметры этапов
-air amount — объём воздуха
-fluid levels — уровень жидкости
-feed size — размер гранул сырья
+
+air amount — объём воздуха\
+fluid levels — уровень жидкости\
+feed size — размер гранул сырья\
 feed rate — скорость подачи
 
 Наименование признаков
-Шаблон наименования признаков: [этап].[тип_параметра].[название_параметра]
+
+Шаблон наименования признаков: [этап].[тип_параметра].[название_параметра]\
 Пример: rougher.input.feed_ag
 
-Возможные значения для блока [этап]:
-rougher — флотация
-primary_cleaner — первичная очистка
-secondary_cleaner — вторичная очистка
+Возможные значения для блока [этап]:\
+rougher — флотация\
+primary_cleaner — первичная очистка\
+secondary_cleaner — вторичная очистка\
 final — финальные характеристики
 
-Возможные значения для блока [тип_параметра]:
-input — параметры сырья
-output — параметры продукта
-state — параметры, характеризующие текущее состояние этапа
+Возможные значения для блока [тип_параметра]:\
+input — параметры сырья\
+output — параметры продукта\
+state — параметры, характеризующие текущее состояние этапа\
 calculation — расчётные характеристики
