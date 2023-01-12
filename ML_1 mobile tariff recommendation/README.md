@@ -1,7 +1,7 @@
 **Mobile tariff recommendation**
 
 Mobile provider Megaline has noticed that a lot of their clients are using old tariffs.
-We need to build the recommendation system which analizes clients behavior and offers a new tariff to a client - tariff Smart of Ultra.
+We need to build the recommendation system which analyzes clients behavior and offers a new tariff to a client - Smart of Ultra.
 
 We have the dataset of users behavior which use 2 tariffs.
 We should find users behavior patterns to build ML-algorithm recommending a new tariff.
@@ -14,6 +14,7 @@ Dataset contains 3214 objects with data:
 *is_ultra* — which tariff used during month («Ultra» — 1, «Smart» — 0).
 
 Target of the task - to build ML-algorithm with *accuracy* 0.75 or more.
+___
 
 
 **Рекомендация тарифов**
