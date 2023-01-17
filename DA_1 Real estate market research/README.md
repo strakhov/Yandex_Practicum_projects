@@ -5,6 +5,10 @@ We need to research the data for further measure of the appartment market price.
 determine some anomalies and illegal activity. There are two types of data for each object. First are written by creator of ads, the second received
 automatically by the map service. For example: distance from city center, airport, closest park and pond.
 
+Used libraries: pandas, matplotlib
+
+As a result of the work, the most common real estate objects in the St. Petersburg region were identified. Also there were identified some patterns. For example, the features that have the greatest impact on the price of an apartment are: the number of rooms, total and living area and also the floor. Based on the results of the research, it is possible to create the apartment price recommendation system. Or you can automatically recognize anomalous ads - for example, with a suspiciously low price or vice versa, with an inflated one.
+
 ---
 
 **Исследование объявлений о продаже квартир**
@@ -14,3 +18,7 @@ automatically by the map service. For example: distance from city center, airpor
 Также наша задача — установить параметры. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность.
 По каждой квартире на продажу доступны два вида данных. Первые вписаны пользователем, вторые — получены автоматически на основе картографических 
 данных. Например, расстояние до центра, аэропорта, ближайшего парка и водоёма.
+
+Использованные библиотеки: pandas, matplotlib
+
+В результате работы выявлены наиболее распространенные для региона Санкт-Петербург объекты недвижимости. Также найдены некоторые закономерности. Например, признаки, имеющие наибольшее влияние на цену объекта - количество комнат, общая и жилая площадь, а также этаж. Основываясь на результатах исследования, можно, например, создать рекомендательную систему выставления цены на квартиру, а также автоматически выявлять аномальные объявления - например, с подозрительно низкой ценой, или наоборот - завышенной.
