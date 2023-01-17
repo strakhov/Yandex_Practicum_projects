@@ -15,6 +15,10 @@ Work plan:
 
 
 The data is in the file `taxi.csv`. The number of orders is in the `num_orders` column.
+
+Used libraries: pandas, numpy, sklearn, catboost
+
+Based on the order history for the previous 6 months, I built a model that predicts with high accuracy the number of orders in the next hour and even for several days ahead.
 ___
 
 **Предсказание заказов такси**
@@ -34,3 +38,7 @@ ___
 
 
 Данные лежат в файле `taxi.csv`. Количество заказов находится в столбце `num_orders`.
+
+Использованные библиотеки: pandas, numpy, sklearn, catboost
+
+Основываясь на истории заказов за предыдущие 6 месяцев, удалось создать модель, с высокой точностью прогнозирующую количество заказов не только в следующий час, но и на несколько дней вперед.
