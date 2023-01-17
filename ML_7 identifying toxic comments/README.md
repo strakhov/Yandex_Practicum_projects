@@ -20,6 +20,10 @@ Our target is *F1-score* more than 0.75.
 
 The data is in the file `toxic_comments.csv'. The *text* column in it contains the comment text, and *toxic* is the target attribute.
 
+Used libraries: pandas, numpy, re, sklearn, nltk, CatBoost, GridSearchCV
+
+After lemmatization and vectorization of original texts, an ML model was trained that recognizes toxic comments on unfamiliar samples with high quality (F1-score=0.78).
+
 ___
 **Выявление токсичных комментариев**
 
@@ -42,3 +46,7 @@ ___
 **Описание данных**
 
 Данные находятся в файле `toxic_comments.csv`. Столбец *text* в нём содержит текст комментария, а *toxic* — целевой признак.
+
+Использованные библиотеки: pandas, numpy, re, sklearn, nltk, CatBoost, GridSearchCV
+
+После лемматизации и векторизации текстов была обучена ML-модель, которая с высоким качеством (F1-score=0.78) распознает токсичные комментарии на незнакомых примерах.
