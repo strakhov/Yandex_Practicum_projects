@@ -7,7 +7,7 @@ automatically by the map service. For example: distance from city center, airpor
 
 Used libraries: pandas, matplotlib
 
-As a result of the work, the most common real estate objects in the St. Petersburg region were identified. Also there were identified some patterns. For example, the features that have the greatest impact on the price of an apartment are: the number of rooms, total and living area and also the floor. Based on the results of the research, it is possible to create the apartment price recommendation system. Or you can automatically recognize anomalous ads - for example, with a suspiciously low price or vice versa, with an inflated one.
+As a result of the work, the most common real estate objects in the St. Petersburg region were identified. Also there were identified some patterns. For example, the features that have the greatest impact on the price of an apartment are: the number of rooms, total and living area and also the floor. Based on the results of the research, it is possible to create the apartment price recommendation system. Or you can automatically recognize anomalous ads - for example, with a suspiciously low price or with an inflated one.
 
 ---
 
