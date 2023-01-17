@@ -14,6 +14,10 @@ Dataset contains 3214 objects with data:
 *is_ultra* — which tariff used during month («Ultra» — 1, «Smart» — 0).
 
 Target of the task - to build ML-algorithm with *accuracy* 0.75 or more.
+
+Used libraries: pandas, seaborn, sklearn
+
+As a result of the work there was created ML-model of mobile tariff recommendation which makes recommendations based on the behavior of the client.
 ___
 
 
@@ -34,3 +38,7 @@ ___
 *is_ultra* — каким тарифом пользовался в течение месяца («Ультра» — 1, «Смарт» — 0).
 
 Цель задачи - построить модель с *accuracy* не меньше 0.75 на валидационной и тестовой выборках.
+
+Использованные библиотеки: pandas, seaborn, sklearn
+
+В результате работы создан рекомендательный алгоритм, который рекомендует тариф, исходя из поведения клиента.
