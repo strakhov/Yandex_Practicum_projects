@@ -54,6 +54,10 @@ input — raw material parameters\
 output — product parameters\
 state — parameters characterizing the current state\
 of the calculation stage — design characteristics
+
+Used libraries: pandas, seaborn, matplotlib, sklearn
+
+As a result of the work there was created ML-model that predicts the parameters of the ore recovery product with high accuracy.
 ___
 
 **Восстановление золота из руды**
@@ -112,3 +116,7 @@ input — параметры сырья\
 output — параметры продукта\
 state — параметры, характеризующие текущее состояние этапа\
 calculation — расчётные характеристики
+
+Использованные библиотеки: pandas, seaborn, matplotlib, sklearn
+
+В результате работы создана ML-модель, с высоким качеством предсказывающая качество продукта обогащения руды по параметрам технологического процесса.
