@@ -11,6 +11,10 @@ Choosing a location steps:
 - Build a model and estimate the volume of stocks;
 - Choose the deposits with the highest estimates of values. The number of deposits depends on the company's budget and the cost of developing one well;
 - The profit is equal to the total profit of the selected fields.
+
+Used libraries: pandas, numpy, sklearn
+
+As a result of the work using the Bootstrap the region with the greatest potential profit and the lowest probability of losses was selected. 
 ___
 
 **Выбор локации для скважины**
@@ -27,3 +31,7 @@ ___
 - Строят модель и оценивают объём запасов;
 - Выбирают месторождения с самым высокими оценками значений. Количество месторождений зависит от бюджета компании и стоимости разработки одной скважины;
 - Прибыль равна суммарной прибыли отобранных месторождений.
+
+Использованные библиотеки: pandas, numpy, sklearn
+
+В результате работы с применением техники Bootstrap выбран регион нефтедобычи с наибольшей потенциальной прибылью и наименьшей вероятностью убытков.
