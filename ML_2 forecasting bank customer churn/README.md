@@ -41,6 +41,7 @@ ___
 
 Источник данных: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
 
-Использованные библиотеки: pandas, matplotlib, sklearn (GridSearchCV, StandardScaler, etc), one-hot-encoding
+Использованные библиотеки: pandas, matplotlib, sklearn (GridSearchCV, StandardScaler, etc), one-hot-encoding.
+
 В результате работы создана ML-модель прогнозирования оттока клиентов банка с высоким качеством - F1 score: 0.613, AUC-ROC score: 0.859.
 Метрики достигнуты благодаря использованию техник OHE (one hot encoding), масштабирования и разных методов борьбы с дисбалансом.
