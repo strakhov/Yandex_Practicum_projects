@@ -14,6 +14,11 @@ Work plan:
 
 Data source: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
 
+Used libraries: pandas, matplotlib, sklearn (GridSearchCV, StandardScaler, etc), one-hot-encoding
+
+As a result of the work there was created ML-model of forecasting bank customer churn with high quality - F1 score: 0.613 and AUC-ROC score: 0.859.
+It was possible by using OHE (one hot encoding), StandardScaler and fighting the imbalance methods.
+
 ___
 **Прогнозирование оттока клиентов из банка**
 
@@ -35,3 +40,7 @@ ___
 4. Проверить лучшую модель на тестовой выборке.
 
 Источник данных: [https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling](https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling)
+
+Использованные библиотеки: pandas, matplotlib, sklearn (GridSearchCV, StandardScaler, etc), one-hot-encoding
+В результате работы создана ML-модель прогнозирования оттока клиентов банка с высоким качеством - F1 score: 0.613, AUC-ROC score: 0.859.
+Метрики достигнуты благодаря использованию техник OHE (one hot encoding), масштабирования и разных методов борьбы с дисбалансом.
