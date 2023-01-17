@@ -11,6 +11,11 @@ We have 4 tables:
 - `internet.csv` — online services information;
 - `phone.csv` — phone services information.
 
+Used libraries: pandas, numpy, seaborn, matplotlib, phik, sklearn (incl. OneHotEncoder, StandardScaler), CatBoost
+
+As a result of the work there was created a ML-model predicting customer churn with high quality - ROC-AUC=0.92, Accuracy=0.87.
+Correlations between features and their importance for learning were analyzed for the project. Only the most important features were selected for training the model - that accelerated the work of the algorithm. The GridSearch module helped to find the best hyperparameters of the final model.
+
 ___
 **Прогнозирование оттока клиентов от мобильного оператора**
 
@@ -24,3 +29,8 @@ ___
 - `personal.csv` — персональные данные клиента;
 - `internet.csv` — информация об интернет-услугах;
 - `phone.csv` — информация об услугах телефонии.
+
+Использованные библиотеки: pandas, numpy, seaborn, matplotlib, phik, sklearn (incl. OneHotEncoder, StandardScaler), CatBoost
+
+В результате работы над проектом была создана модель машинного обучения, предсказывающая уход клиента с высокой точностью: ROC-AUC=0.92, Accuracy=0.87.
+Перед обучением модели были проанализированы корреляции между признаками и их важность для обучения. В итоге были отобраны только самые важные признаки, что ускорило работу алгоритма. Модуль GridSearch помог найти лучшие гиперпараметры итоговой модели.
