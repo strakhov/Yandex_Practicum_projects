@@ -17,6 +17,11 @@ Work plan:
 - learning a few ML-models;
 - choosing the best one and its testing
 
+Used libraries: pandas, seaborn, sklearn (StandardScaler, OrdinalEncoder), catboost, lightgbm
+
+As a result of the work there has been created a ML-model that determines the cost of a car by its parameters.
+The model can be used in some price recommendation system or for determine suspecious ads with extremely low or high price.
+
 ___
 **Определение стоимости автомобилей**
 
@@ -35,3 +40,8 @@ ___
 - подготовим данные для обучения;
 - обучим и сравним несколько моделей;
 - выберем лучшую и протестируем ее
+
+Использованные библиотеки: pandas, seaborn, sklearn (StandardScaler, OrdinalEncoder), catboost, lightgbm
+
+В результате работы создана ML-модель, определяющая стоимость автомобиля по его параметрам.
+Модель может быть использована в системе рекомендации цены автомобиля или для определения подозрительных объявлений с чрезвычайно низкой или высокой ценой.
